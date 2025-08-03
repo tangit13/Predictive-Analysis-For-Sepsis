@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load the trained model
-with open("model.pkl", "rb") as f:
+with open("sepsis_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 st.title("Sepsis Prediction App")
